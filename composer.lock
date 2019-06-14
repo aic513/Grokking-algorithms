@@ -1,0 +1,67 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "bb311db204abd931e78bbcb20a7b663b",
+    "packages": [
+        {
+            "name": "php-ds/php-ds",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-ds/polyfill.git",
+                "reference": "5af86a08d5a37239092a6f6066aafa00bdf37ea0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-ds/polyfill/zipball/5af86a08d5a37239092a6f6066aafa00bdf37ea0",
+                "reference": "5af86a08d5a37239092a6f6066aafa00bdf37ea0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "require-dev": {
+                "php-ds/tests": "^1.2"
+            },
+            "suggest": {
+                "ext-ds": "to improve performance and reduce memory usage"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Ds\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rudi Theunissen",
+                    "email": "rudolf.theunissen@gmail.com"
+                }
+            ],
+            "keywords": [
+                "data structures",
+                "ds",
+                "php",
+                "polyfill"
+            ],
+            "time": "2019-05-28T19:52:55+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "php-ds/php-ds": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

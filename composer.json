@@ -1,0 +1,9 @@
+{
+    "name": "denis/grokking-algorithms",
+    "description": "exercises from book",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {
+        "php-ds/php-ds": "dev-master"
+    }
+}
